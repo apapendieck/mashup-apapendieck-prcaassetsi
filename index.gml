@@ -1,4 +1,4 @@
-<gm:page title="Picayune Assets" authenticate="false">
+<gm:page title="Pearl River County Institutions" authenticate="false">
 
   <!--
     The mashup application demonstrates taking an external RSS feed from a google spreadsheet with
@@ -6,7 +6,7 @@
     @author: apapendieck@gmail.com
   -->
    <div>
-      <h3>Pearl River County Assets</h3> 
+      <h3>Pearl River County Institutions</h3> 
   </div>
   <gm:tabs target="myContainer"/>
   <gm:container id="myContainer" style="padding:3px;border:1px solid #369;width:900px;">
@@ -15,7 +15,7 @@
   <div>
          <h3>About</h3> 
   </div>
-Asset mapping 
+Click the tabs to view an inventory of institutional assets in Pearl River County.
     </gm:section>          
                 
     <gm:section id="sectionSchools" title="Schools">
