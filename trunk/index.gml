@@ -16,8 +16,31 @@
          <h3>About</h3> 
   </div>
 Click the tabs to view an inventory of institutional assets in Pearl River County.
-    </gm:section>          
-                
+    </gm:section> 
+             
+     <gm:section id="sectionChurches" title="Churches">
+<div>
+    <h3>Churches</h3>
+</div>
+<table width="100%">
+<tr>
+<td style="padding-right:10px; width:250px" valign="top">
+<gm:list id="listSchools" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.7826875436890504248/od6/public/values?sq=church%3D1" pagesize="10" template="myListTemplate">
+<gm:handleEvent event="select" src="mapChurches"/>
+</gm:list>
+</td>
+<td valign="top">
+<gm:map id="mapChurches" style="border:solid black 1px" control="large"
+maptypes="true" data="${listChurches}" latref="gsx:bglat" lngref="gsx:bglong"
+infotemplate="myMapDetailsTemplate"
+lat="30.53" lng="-89.68" zoom="8">
+<gm:handleEvent event="select" src="listChurches"/>
+</gm:map>
+</td>
+</tr>
+</table>
+</gm:section> 
+                               
     <gm:section id="sectionSchools" title="Schools">
 <div>
     <h3>Schools</h3>
