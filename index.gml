@@ -25,7 +25,7 @@ Click the tabs to view an inventory of institutional assets in Pearl River Count
 <table width="100%">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
-<gm:list id="listSchools" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.7826875436890504248/od6/public/values?sq=church%3D1" pagesize="10" template="myListTemplate">
+<gm:list id="listChurches" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.7826875436890504248/od6/public/values?sq=church%3D1" pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapChurches"/>
 </gm:list>
 </td>
