@@ -50,7 +50,7 @@ lat="30.53" lng="-89.68" zoom="8">
 <table width="100%">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
-<gm:list id="listSchools" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=school%3D1" pagesize="10" template="myListTemplate">
+<gm:list id="listSchools" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=school%3D1" pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapSchools"/>
 </gm:list>
 </td>
@@ -76,7 +76,7 @@ lat="30.53" lng="-89.68" zoom="8">
 <table width="100%">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
-<gm:list id="listFire" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=firedept%3D1"
+<gm:list id="listFire" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=firedept%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapFire"/>
 </gm:list>
@@ -101,7 +101,7 @@ lat="30.53" lng="-89.68" zoom="8">
 <table width="100%">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
-<gm:list id="listPost" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=postoffice%3D1"
+<gm:list id="listPost" data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=postoffice%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapPost"/>
 </gm:list>
@@ -126,7 +126,7 @@ title="Libraries">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
 <gm:list id="listLibraries"
-data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=library%3D1"
+data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=library%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapLibraries"/>
 </gm:list>
@@ -152,7 +152,7 @@ title="Law Enforcement">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
 <gm:list id="listLawEnforcement"
-data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=lawenforce%3D1"
+data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=lawenforce%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapLawEnforcement"/>
 </gm:list>
@@ -178,7 +178,7 @@ title="Hospitals">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
 <gm:list id="listHospitals"
-data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=hospital%3D1"
+data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=hospital%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapHospitals"/>
 </gm:list>
@@ -204,7 +204,7 @@ title="Nursing Homes">
 <tr>
 <td style="padding-right:10px; width:250px" valign="top">
 <gm:list id="listNursingHomes"
-data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/od6/public/values?sq=nursing%3D1"
+data="http://spreadsheets.google.com/feeds/list/o17634829598942266075.5998631686442449819/ocw/public/values?sq=nursing%3D1"
 pagesize="10" template="myListTemplate">
 <gm:handleEvent event="select" src="mapNursingHomes"/>
 </gm:list>
