@@ -15,7 +15,7 @@
   <div>
          <h3>About</h3> 
   </div>
-Asset mapping 
+Click a tab to view asset maps.
     </gm:section>          
          
                 
